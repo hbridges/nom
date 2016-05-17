@@ -32,3 +32,41 @@ body {
   font-family: 'chunkfiveroman', sans-serif;
   font-size:26px;
 }
+
+.paginate {
+  text-align: center;
+  padding: 0.3em;
+  cursor: default;
+}
+
+.pagination a {
+  border: 1px solid #dddddd;
+  color: #0063dc;
+  text-decoration: none;
+}
+
+.pagination .current {
+  font-style: normal;
+  font-weight: bold;
+  color: #ff0084;
+}
+
+.pagination .previous_page {
+  margin-right: 1em;
+}
+
+.pagination .previous_page, .pagination .next_page {
+  border-width: 2px;
+}
+
+.pagination .disabled {
+  color: #aaaaaa;
+}
+
+.pagination a, .pagination span, .pagination em {
+  padding: 0.2em 0.5em;
+}
+
+.pagination .next_page {
+  margin-left: 1em;
+}
